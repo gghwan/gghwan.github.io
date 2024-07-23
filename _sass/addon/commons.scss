@@ -744,20 +744,8 @@ $btn-mb: 0.5rem;
       @extend %sidebar-link-hover;
 
       //color: var(--site-title-color);
-      color: white;
+      color: crimson;
     }
-  }
-
-  .site-subtitle {
-    font-size: 95%;
-    //color: var(--site-subtitle-color);
-    color: white;
-    margin-top: 0.25rem;
-    word-spacing: 1px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
   }
 
   ul {
