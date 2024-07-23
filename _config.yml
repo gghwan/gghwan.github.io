@@ -16,8 +16,6 @@ timezone: Asia/Seoul
 
 title: Error Diary # the main title
 
-tagline: 경환 에러일지
-
 description: >- # used by seo meta and the atom feed
   gghwan's Dev blog
 
