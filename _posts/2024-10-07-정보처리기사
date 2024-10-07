@@ -1,0 +1,20 @@
+#  빌트인  타입의  실제  값
+values  =  [
+        42,                                                #  int
+        3.14,                                            #  float
+        1  +  2j,                                        #  complex
+        True,                                            #  bool
+        "Hello,  World!",                      #  str
+        [1,  2,  3],                                  #  list
+        (1,  2,  3),                                  #  tuple
+        {1,  2,  3},                                  #  set
+        {"a":  1,  "b":  2,  "c":  3},    #  dict
+        b"Hello,  World!",                    #  bytes
+        bytearray(b"Hello,  World!"),  #  bytearray
+        memoryview(b"Hello,  World!"),  #  memoryview
+        range(10),                                  #  range
+        None                                              #  NoneType
+]
+#  번호를  매겨서  실제  값과  타입을  출력하는  코드
+for  index,  value  in  enumerate(values,  start=1):
+        print(f"{index}.  {value}  -  {type(value)}")
