@@ -270,3 +270,45 @@ int main(){
 ^ (XOR) : 비트가 다르면 1, 같으면 0
 
 ~ ( NOT) : 전체 비트를 반대로 바꾼다. ( +1 하고 음수취하기)
+
+쉬프트 연산자
+
+이진수 형태의 값을 왼쪽 또는 오른쪽으로 이동시키는 연산자이다.
+
+비트를 왼쪽이나 오른쪽으로 미는 것.
+
+#include < stdio.h>
+
+int main() {
+
+  int a = 5; /* 0101 값을 이진수로 바꾼 뒤에 왼쪽으로 하나 밀어라.*/
+
+  int result = a << 1; // 1010
+
+  printf("a << 1의 결과: %d\n", result);
+
+  return 0;
+
+}
+
+출력값:
+
+a << 1 의 결과: 10
+
+public class UnsignedRightShift{
+ public static void main(String[] args){
+  int a = 20;
+  int result = a >>> 2;
+
+  System.out.println(" a >>> 2의 결과: " + result);
+ }
+}
+
+출력값:
+a >>> 2 의 결과: 5
+
+부호 비트를 무시하고, 오른쪽으로 비트를 이동시킨다.
+왼쪽에는 0을 채운다.
+Java연산자에서만 다루는 기능이다.
+
+
